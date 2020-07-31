@@ -1,0 +1,8 @@
+body{
+    background-image: url('../../../assets/imagenesBase/main-fondo.jpg');
+    background-size:cover ;
+    background-position: center;
+}
+.container{
+    border-radius: 10px;
+}

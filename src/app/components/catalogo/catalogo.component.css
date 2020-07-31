@@ -1,0 +1,19 @@
+body{
+    background-image: url('../../../assets/imagenesBase/main-fondo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    border-radius: 10px;
+}
+.bg-light{
+    border-radius: 5px;
+}
+.catalogo> img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    width: 23%;
+    height: 14rem;
+    box-shadow: black 1px 1px 5px;
+}

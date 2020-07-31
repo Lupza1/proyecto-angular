@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Inicio de sesion</title>
+</head>
+<body>
+  <div class="container">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="col-sm-12">
+      <h1>Inicio de sesion:</h1>
+      <form>
+        <div class="form-group">
+          <label for="email-input">Dirección correo electrónico: <p></p></label>
+          <input type="email" class="form-control" id="email-input" ngModel name="email" required pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?">
+          <label class="error" *ngIf="!f.valid">Debes ingresar un email válido</label>
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="password-input">Contraseña: <p></p></label>
+          <input type="password" class="form-control" id="password-input" ngModel name="password" required>
+        </div>
+        <br>
+        <a href='../main'><button type="button" class="btn btn-success center-block">Enviar</button></a>
+      </form>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br><p></p>
+      <br>
+    </div>
+  </div>
+</body>
+</html>
